@@ -1,7 +1,8 @@
 # rdt-website
 All css and js are in index.
 
-DOWNLOAD A FTP CLIENT SOFTWARE. (e.g WinSCP, SmartFTP)
+DOWNLOAD A FTP CLIENT SOFTWARE. (e.g WinSCP, SmartFTP).
+DO NOT DOWNLOAD ALL BRANCH FILES. DOWNLOAD HTML FOR NOW.
 - Slack me for the hostname and password
 
 CHECK LIST
