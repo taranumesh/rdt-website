@@ -1,8 +1,7 @@
 # rdt-website
-All css and js are in index.
 
-DOWNLOAD A FTP CLIENT SOFTWARE. (e.g WinSCP, SmartFTP)
-- Slack me for the hostname and password
+Images branch is for members' images
+Carouselimages for images inside carousel
 
 CHECK LIST
 
