@@ -1,7 +1,7 @@
 # rdt-website
 
-Images branch is for members' images
-Carouselimages for images inside carousel
+- Images branch is for members' images
+- Carouselimages for images inside carousel
 
 CHECK LIST
 
