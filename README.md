@@ -14,3 +14,4 @@ CHECK LIST
 - Mobile compatibility [iPhone 4/5 are buggy]
 - Make it look nooiicee, again just inform me first
 - All photos are in the drive, you can upload them here if you like
+- Change resume email link from mailto: to a copy to clipboard function
