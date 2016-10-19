@@ -15,3 +15,4 @@ CHECK LIST
 - Make it look nooiicee, again just inform me first
 - All photos are in the drive, you can upload them here if you like
 - Change resume email link from mailto: to a copy to clipboard function
+- Make Robotics section to have photos of Atlas02 and Atlas06
