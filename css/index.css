@@ -58,23 +58,29 @@ body {
 
 .blurb {
   font-family: 'Open Sans', Arial;
-  font-size: medium;
+  font-size: 20px;
+  line-height: 1.75em !important;
   height: auto;
-  width: auto;
   color: white;
   text-align: justify;
   /* background-image: -webkit-linear-gradient(rgba(12,9,9,0.55) 0%, rgba(12,9,9,0.55) 100%) ,url(images/blueprint.png); */
   background-color: #606078;
   /* color-scheme */
+  text-align: center;
   padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 25px;
+}
+
+.blurb p {
+  margin-bottom: 20px;
 }
 
 .blurbwhite {
   font-family: 'Open Sans', Arial;
   font-size: medium;
   height: auto;
-  width: auto;
   color: black;
   text-align: justify;
   padding-top: 40px;
@@ -90,9 +96,14 @@ body {
   display: inline;
 }
 
-footer {
-  background-color: black;
-  padding: 15px;
+.footer {
+  background-color: #F9F9F9;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#resume {
+  padding-bottom: 50px;
 }
 
 .carousel-inner img {
@@ -134,10 +145,15 @@ footer {
   height: 190px;
 }
 
-#contact > div {
+.contact-list {
+  padding-left: 0
+}
+
+
+/*#contact > div {
   width: 100px;
   height: 100px;
-}
+}*/
 
 .sponsor_info {
   font-family: 'Open Sans', Arial;
@@ -153,25 +169,14 @@ footer {
   /* color scheme */
 }
 
-#sponsor {
-  display: flex;
-  /* establish flex container */
-  flex-direction: row;
-  /* default value; can be omitted */
-  flex-wrap: nowrap;
-  /* default value; can be omitted */
-  justify-content: flex-start;
-  /* switched from default (flex-start, see below) */
-  background-color: rgba(0, 0, 0, 0);
-  margin-bottom: 0px;
-}
-
-#sponsor > div {
-  width: 100px;
-}
+#sponsor {}
 
 .sponsor_pic {
   width: 85%;
+}
+
+small {
+  color: #fff !important;
 }
 
 .carousel-caption > h1 {
@@ -193,6 +198,11 @@ p {
 .gallery {
   height: 320px;
   background-color: white;
+  text-align: center;
+}
+
+.gallery-link {
+  text-decoration: none;
 }
 
 .galleryHover {
@@ -207,7 +217,7 @@ p {
   transition: .35s;
 }
 
-.gallery:hover .galleryHover {
+.gallery-link:hover .galleryHover {
   visibility: visible;
   opacity: 1;
 }
@@ -241,77 +251,10 @@ a:visited {
   text-decoration: none;
 }
 
-
-/* Desktop default with float right, less than the width px it will default to float left and have nav-bar enable */
-
-@media(min-width: 768px) {
-  .navbar-nav {
-    float: right;
-    margin-right: -10px;
-  }
+.padding-bottom {
+  padding-bottom: 25px;
 }
 
-@media(max-width: 320px) {
-  div.contact_pic > ul > li > h3 {
-    font-size: 21px;
-  }
-}
-
-
-/* when the screen is less than 600 pixels wide */
-
-@media (max-width: 600px) {
-  .blurb div {
-    font-size: 13px;
-  }
-  .blurbwhite div {
-    font-size: 13px;
-  }
-  .carousel-caption {
-    bottom: 11%;
-  }
-  .carousel-caption > h1 {
-    font-size: 30px;
-    font-weight: normal;
-  }
-  #myCarousel {
-    padding-top: 50px;
-    width: 100%;
-    /* reduce carousel imgs and centers */
-  }
-  #contact {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .contact_pic {
-    width: auto;
-  }
-  #sponsor {
-    height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  #sponsor > div > ul > li > h3 {
-    font-size: 18px;
-  }
-  .sponsor_pic {
-    width: auto;
-  }
-  #contact > div {
-    height: 100%;
-  }
-  .gallery {
-    height: 100px;
-  }
-  .galleryHover {
-    position: relative;
-    bottom: 70px;
-    text-align: center;
-    visibility: visible;
-    opacity: 1;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    transition: .35s;
-  }
+hr {
+  margin-bottom: 30px !important;
 }
