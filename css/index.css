@@ -1,8 +1,11 @@
 body {
-  background-color: white;	 /* color-scheme */
+  background-color: white;
+  /* color-scheme */
   background-color: #444;
   -webkit-text-size-adjust: 100%;
 }
+
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 
 .nav {
@@ -13,8 +16,15 @@ body {
   margin-bottom: 0;
   border-radius: 0;
   font-weight: bold;
-  background-color: #606078;
+  background-color: #57068c;
+  border-width: 0 !important;
   /* color-scheme */
+}
+
+.brand-icon {
+  height: 40px;
+  padding-top: 10px;
+  float: left;
 }
 
 .navbar-fixed-top {
@@ -24,7 +34,7 @@ body {
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-  background-color: #606078;
+  background-color: transparent;
   /* sets background to this instead of bootstrap default */
 }
 
@@ -176,7 +186,8 @@ footer {
 }
 
 p {
-  text-indent: 25px;
+  /*text-indent: 25px;*/
+  line-height: 1.5em;
 }
 
 .gallery {

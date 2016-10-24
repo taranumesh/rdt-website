@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link type="text/css" rel="stylesheet" href="css/index.min.css">
-  <!-- bunch of custom fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="js/index.min.js"></script>
@@ -25,7 +27,8 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <!--MOBILE NAVIGATION BAR-->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="http://lunabotics.poly.edu/#" style="font-size: x-large; color: white;"> NYU Robotics
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <image src="images/tandon_long_white.png" class='brand-icon'></image><a class="navbar-brand" href="http://lunabotics.poly.edu/#" style="font-size: x-large; color: white;"> Robotics Design Team
 		      <!-- 	<img class="logo" src=#>	Maybe use the LOGO as the home button instead of NYU Robotics text-->
 	      </a> </div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -54,19 +57,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <a href="#RMC"> <img src="carouselImages/File_000 (1).png" alt="Competition">
+        <a href="#RMC"> <img src="images/carousel/File_000 (1).png" alt="Competition">
           <div class="carousel-caption">
             <h1>Competitions</h1> </div>
         </a>
       </div>
       <div class="item">
-        <a href="#robotics"> <img src="carouselImages/File_002.png" alt="Robots">
+        <a href="#robotics"> <img src="images/carousel/File_002.png" alt="Robots">
           <div class="carousel-caption">
             <h1>Meet the Robots</h1> </div>
         </a>
       </div>
       <div class="item">
-        <a href="#resume"> <img src="carouselImages/DSC_0004.PNG" alt="Contacts/Resume">
+        <a href="#resume"> <img src="images/carousel/DSC_0004.PNG" alt="Contacts/Resume">
           <div class="carousel-caption">
             <h1>Sign Up!</h1> </div>
         </a>
@@ -78,7 +81,7 @@
         </a>
       </div>
       <div class="item">
-        <a href="#sponsor"> <img src="carouselImages/IMG_20160119_183024.png" alt="Sponsor">
+        <a href="#sponsor"> <img src="images/carousel/IMG_20160119_183024.png" alt="Sponsor">
           <div class="carousel-caption">
             <h1>Sponsors</h1> </div>
         </a>
@@ -97,14 +100,19 @@
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
   </div>
   <!-- Mission Statement -->
-  <div class="blurb" id="mission">
-    <div style="height: 5px;"></div>
-    <div>
-      <h1 style="text-align: center; ">Our Mission</h1>
-      <hr style="border: 0%; border-bottom: 1px solid; max-width: 70px; margin-top: 12px;"> </div>
-    <div style="padding-left: 30px; padding-right: 30px;">
-      <p>Our mission as the NYU Robotics Design team is to provide an opportunity for students who are eager to apply all of their knowledge about engineering into a long term project, providing them with hands on experience designing and building robots. Our team is composed of students whose disciplines span across many engineering fields, and are at various stages in their education, creating a unique environment of learning and mentorship. We participate in annual national robotics competitions that require passion, perseverance, and dedication from all of our members to create and execute innovative designs for each competition. Our team also believes in the positive impact of STEM education for children of all ages, and organize outreach events to teach students about robotics and to encourage them to follow their dreams. </p>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="blurb" id="mission">
+        <div style="height: 5px;"></div>
+        <div>
+          <h1 style="text-align: center; ">Our Mission</h1>
+          <hr style="border: 0%; border-bottom: 1px solid; max-width: 70px; margin-top: 12px;"> </div>
+        <div style="padding-left: 30px; padding-right: 30px;">
+          <p> Our mission as the NYU Robotics Design team is to provide an opportunity for students who are eager to apply all of their knowledge about engineering into a long term project, providing them with hands on experience designing and building robots. Our team is composed of students whose disciplines span across many engineering fields, and are at various stages in their education, creating a unique environment of learning and mentorship. We participate in annual national robotics competitions that require passion, perseverance, and dedication from all of our members to create and execute innovative designs for each competition. Our team also believes in the positive impact of STEM education for children of all ages, and organize outreach events to teach students about robotics and to encourage them to follow their dreams. </p>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
   <!-- RMC -->
   <div class="blurbwhite" id="RMC">
@@ -142,7 +150,7 @@
       </div>
     </div>
     <div id="contact" class="col-md-6">
-      <div style="width: 25%; padding-top: 20px;"><img src="images/Boric.png" class="img-rounded" width="145px" height "145px"></div>
+      <div style="width: 25%; padding-top: 20px;"><img src="images/Boric.png" class="img-rounded" width="145px" height="145px"></div>
       <div class="contact_pic">
         <ul style="list-style-type: none;">
           <li>
@@ -228,7 +236,7 @@
         </div>
       </div>
       <div id="contact" class="col-md-6">
-        <div style="width: 25%; padding-top: 20px;"><img src="images/Kim.png" class="img-rounded" width="145px" height "145px"></div>
+        <div style="width: 25%; padding-top: 20px;"><img src="images/Kim.png" class="img-rounded" width="145px" height="145px"></div>
         <div class="contact_pic">
           <ul style="list-style-type: none;">
             <li>
@@ -240,7 +248,7 @@
         </div>
       </div>
       <div id="contact" class="col-md-6">
-        <div style="width: 25%; padding-top: 20px;"><img src="images/Josh.png" class="img-rounded" width="145px" height "145px"></div>
+        <div style="width: 25%; padding-top: 20px;"><img src="images/Josh.png" class="img-rounded" width="145px" height="145px"></div>
         <div class="contact_pic">
           <ul style="list-style-type: none;">
             <li>
@@ -303,7 +311,7 @@
       </div>
     </div>
     <div id="sponsor" class="col-md-6">
-      <div class="sponsor_pic" style="width: auto; padding-top: 20px;"> <img src="images/solidworks.PNG" class="img-rounded" style="cursor: pointer" width="200px" height "150px" onclick="window.location='http://www.solidworks.com/'"> </div>
+      <div class="sponsor_pic" style="width: auto; padding-top: 20px;"> <img src="images/solidworks.PNG" class="img-rounded" style="cursor: pointer" width="200px" height="150px" onclick="window.location='http://www.solidworks.com/'"> </div>
       <div style="width: auto;">
         <ul style="list-style-type: none;">
           <li>
