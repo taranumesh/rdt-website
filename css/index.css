@@ -52,7 +52,6 @@ body {
   margin: 0 auto;
 }
 
-
 /* Add a gray background color and some padding to the footer */
 
 .blurb {
@@ -80,7 +79,7 @@ body {
   font-family: 'Open Sans', Arial;
   font-size: medium;
   height: auto;
-  color: black;
+  color: #555;
   text-align: justify;
   padding-top: 40px;
   padding-bottom: 25px;
