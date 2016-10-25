@@ -80,4 +80,8 @@ $(function () {
       }
     }
   });
+  //Responsive adjustments
+  if ($("#desktopTest").is(":hidden")) {
+    $("#brand").text("RDT")
+  }
 });

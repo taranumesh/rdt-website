@@ -1,7 +1,6 @@
 body {
   background-color: white;
   /* color-scheme */
-  background-color: #444;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -196,17 +195,18 @@ p {
 }
 
 .gallery {
-  height: 320px;
   background-color: white;
   text-align: center;
 }
 
 .gallery-link {
   text-decoration: none;
+  position: relative;
+  display: inline-block;
 }
 
 .galleryHover {
-  position: relative;
+  position: absolute;
   bottom: 180px;
   text-align: center;
   visibility: hidden;
@@ -215,6 +215,7 @@ p {
   font-weight: bold;
   color: white;
   transition: .35s;
+  width: 100%;
 }
 
 .gallery-link:hover .galleryHover {
@@ -257,4 +258,151 @@ a:visited {
 
 hr {
   margin-bottom: 30px !important;
+}
+
+@media only screen and (min-width: 320px) {
+  .blurb {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+  }
+  #myCarousel {
+    width: 100%;
+  }
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
+  .carousel-caption {
+    bottom: 60px;
+  }
+  .navbar-header {
+    padding-left: 10px;
+  }
+  .galleryHover {
+    bottom: 50%;
+    transform: translateY(50%);
+    visibility: visible;
+    opacity: 1;
+    font-size: 40px;
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+  .blurb {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+  }
+  #myCarousel {
+    width: 100%;
+  }
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
+  .carousel-caption {
+    bottom: 60px;
+  }
+  .navbar-header {
+    padding-left: 10px;
+  }
+  .galleryHover {
+    bottom: 50%;
+    transform: translateY(50%);
+    visibility: visible;
+    opacity: 1;
+    font-size: 40px;
+  }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+  .blurb {
+    padding-left: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+  #myCarousel {
+    width: 100%;
+  }
+  .carousel-caption h1 {
+    font-size: 45px;
+  }
+  .carousel-caption {
+    bottom: 80px;
+  }
+  .navbar-header {
+    padding-left: 10px;
+  }
+  .galleryHover {
+    bottom: 50%;
+    transform: translateY(50%);
+    visibility: visible;
+    opacity: 1;
+    font-size: 55px;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  .blurb {
+    padding-left: 60px;
+    font-size: 20px;
+    padding-right: 60px;
+  }
+  #myCarousel {
+    width: 75%;
+  }
+  .carousel-caption h1 {
+    font-size: 65px;
+  }
+  .carousel-caption {
+    bottom: 100px;
+  }
+  .navbar-header {
+    padding-left: 0px;
+  }
+  .galleryHover {
+    bottom: 50%;
+    transform: translateY(50%);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 55px;
+  }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+  .blurb {
+    padding-left: 60px;
+    font-size: 20px;
+    padding-right: 60px;
+  }
+  #myCarousel {
+    width: 75%;
+  }
+  .carousel-caption h1 {
+    font-size: 65px;
+  }
+  .carousel-caption {
+    bottom: 100px;
+  }
+  .navbar-header {
+    padding-left: 0px;
+  }
+  .galleryHover {
+    bottom: 50%;
+    transform: translateY(50%);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 55px;
+  }
 }
