@@ -17,6 +17,7 @@ body {
   font-weight: bold;
   background-color: #57068c;
   border-width: 0 !important;
+  font-family: 'gotham-bold', Fallback, sans-serif
   /* color-scheme */
 }
 
@@ -256,6 +257,10 @@ a:visited {
   padding-bottom: 25px;
 }
 
+.nopadding {
+  padding: 3px !important;
+}
+
 hr {
   margin-bottom: 30px !important;
 }
@@ -413,4 +418,19 @@ hr {
     opacity: 0;
     font-size: 55px;
   }
+}
+
+
+/*fonts*/
+
+@font-face {
+  font-family: 'gotham-bold';
+  src: url('fonts/gotham-bold.eot');
+  /* IE9 Compat Modes */
+  src: url('fonts/gotham-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/gotham-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/gotham-bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/gotham-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/gotham-bold.svg#svgFontName') format('svg');
+  /* Legacy iOS */
 }

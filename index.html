@@ -17,6 +17,19 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
+  <!--Facebook SDK-->
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!--JS test screen size-->
   <div id="desktopTest" class="visible-md visible-lg"></div>
   <!--THE NAVIGATION BAR AT THE TOP-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -29,7 +42,7 @@
       <div class="navbar-header">
         <!--MOBILE NAVIGATION BAR-->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <image src="images/tandon_long_white.png" class='brand-icon'></image><a class="navbar-brand" href="http://lunabotics.poly.edu/#" id="brand" style="font-size: x-large; color: white;"> Robotics Design Team
+        <image src="images/tandon_long_white.png" class='brand-icon'></image><a class="navbar-brand" href="http://lunabotics.poly.edu/#" id="brand" style="font-size: x-large; color: white;">Robotics Design Team
 		      <!-- 	<img class="logo" src=#>	Maybe use the LOGO as the home button instead of NYU Robotics text-->
 	      </a> </div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -111,7 +124,7 @@
           <h1 style="text-align: center; ">Our Mission</h1>
           <hr style="border: 0%; border-bottom: 1px solid; max-width: 70px; margin-top: 12px;"> </div>
         <div style="padding-left: 30px; padding-right: 30px;">
-          <p> Our mission is to provide an opportunity for students who eager to apply all their eningeering knowledge to long term project with hands on experience designing and building robots.</p>
+          <p> Our mission is to provide an opportunity for students who are eager to apply all their engineering knowledge to long term project with hands on experience designing and building robots.</p>
           <p>Our team, composed of students from a wide variety of engineering disciplines and at various stages in their education, is a unique environment of learning and mentorship. We participate in annual national robotics competitions that require the passion, perseverance, and dedication of our members to create and execute innovative designs for each competition. Furthermore, we also believe in the positive impact of STEM education for children of all ages, and organize outreach events to teach students about robotics and to encourage them to follow their dreams. </p>
         </div>
       </div>
@@ -323,16 +336,7 @@
           Our participation in these competitions is made possible by generous donations from the following STEM education supporters: 
           </span></div>
         <br>
-        <div id="sponsor" class="col-md-6">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 sponsor-image"> <img src="images/Tandon.png" class="img-rounded img-responsive" style="cursor: pointer;" onclick="window.location='http://engineering.nyu.edu/tandon'"> </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12" style="text-align:center">
-              <h3>NYU Tandon School of Engineering<br><small>Tel: 1.646.997.3600</small><br><small>Website: <a href = "http://engineering.nyu.edu/tandon">engineering.nyu.edu</a></small></h3> </div>
-          </div>
-        </div>
-        <div id="sponsor" class="col-md-6">
+        <div id="sponsor" class="col-md-6 col-md-offset-3">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 sponsor-image"> <img src="images/solidworks.PNG" class="img-rounded img-responsive" style="cursor: pointer;background-color:#fff;padding:2px;" onclick="window.location='http://www.solidworks.com/'"> </div>
           </div>
@@ -343,10 +347,41 @@
         </div>
       </div>
     </div>
-    <div class="row footer">
+    <div class="row footer" style="padding-left:10">
       <div class="col-md-4 col-md-offset-1">
-        <div class="row">Copyright NYU Robotic Design Team &copy;2016 All rights reserved </div>
-        <div class="row">Contact us: <strong>nyurdt@gmail.com</strong></div>
+        <div class="row">&copy;2016 NYU Robotic Design Team, All rights reserved </div>
+        <div class="row">Contact us: <a href="mailto:nyurdt@nyu.edu" style="color:black;"><strong>nyurdt@gmail.com</strong></a></div>
+        <br>
+        <div class="row" style="margin-bottom:0.5em;"><strong>Site Links</strong></div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row"><a href="./" style="color:black;">Home</a></div>
+            <div class="row"><a href="gallery.html" style="color:black;">Gallery</a></div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">Privacy Policy</div>
+            <div class="row">Sitemap</div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:20px"><strong>Stay Connected</strong></div>
+        <div class="row" style="margin-top:10px;">
+          <div class="col-md-1 nopadding">
+            <a href="http://twitter.com/nyurdt"><img src="images/social/twitter.png" class="img-responsive"></a>
+          </div>
+          <div class="col-md-1 nopadding">
+            <a href="http://facebook.com/nyurdt"><img src="images/social/facebook-square.png" class="img-responsive"></a>
+          </div>
+          <div class="col-md-1 nopadding"><img src="images/social/youtube.png" class="img-responsive"></div>
+          <div class="col-md-1 nopadding"><img src="images/social/instagram.png" class="img-responsive"></div>
+        </div>
+      </div>
+      <div class="col-md-3"> <a class="twitter-timeline" data-height="300" href="https://twitter.com/nyurdt" style="width:100%">Tweets by nyurdt</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-md-3">
+        <div class="fb-page" data-href="https://www.facebook.com/nyurdt" data-tabs="timeline" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" style="width:100%;">
+          <blockquote cite="https://www.facebook.com/nyurdt" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nyurdt">NYU Robotic Design Team</a></blockquote>
+        </div>
       </div>
     </div>
   </div>
