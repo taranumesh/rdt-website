@@ -1,0 +1,283 @@
+body {
+  background-color: white;
+  /* color-scheme */
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.nav {
+  padding-bottom: 7px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  font-weight: bold;
+  background-color: #57068c;
+  border-width: 0 !important;
+  font-family: 'gotham-bold', Fallback, sans-serif font-family: 'gotham-bold', Fallback, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  /* color-scheme */
+}
+
+.brand-icon {
+  height: 40px;
+  padding-top: 10px;
+  float: left;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #606078;
+  /* sets background to this instead of bootstrap default */
+}
+
+.navbar .active a {
+  border: 0%;
+  /* creates the underline effect */
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #F9F9F9;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+.blurb {
+  font-family: 'Open Sans', Arial;
+  font-size: medium;
+  height: auto;
+  width: auto;
+  color: #000;
+  text-align: justify;
+  /* background-image: -webkit-linear-gradient(rgba(12,9,9,0.55) 0%, rgba(12,9,9,0.55) 100%) ,url(images/blueprint.png); */
+  background-color: #F0F0F0;
+  /* color-scheme */
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.grid {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  position: relative
+}
+
+.grid-item {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.blurbwhite {
+  font-family: 'Open Sans', Arial;
+  font-size: medium;
+  height: auto;
+  width: auto;
+  color: black;
+  text-align: justify;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.poster {
+  max-width: 100%;
+}
+
+.contact li {
+  display: inline;
+}
+
+footer {
+  background-color: black;
+  padding: 15px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  /* Set width to 100% */
+  margin: auto;
+  max-height: 100%;
+  /* Set max height for images in the carousel */
+}
+
+.contact_info {
+  font-family: "Open Sans";
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  color: #555;
+  background-color: white;
+  /* color scheme */
+}
+
+#contact {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* default value; can be omitted */
+  flex-wrap: nowrap;
+  /* default value; can be omitted */
+  justify-content: flex-start;
+  /* switched from default (flex-start, see below) */
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 20px;
+  height: 190px;
+}
+
+#contact > div {
+  width: 100px;
+  height: 100px;
+}
+
+.sponsor_info {
+  font-family: 'Open Sans', Arial;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #606078;
+  /* color scheme */
+}
+
+#sponsor {
+  display: flex;
+  /* establish flex container */
+  flex-direction: row;
+  /* default value; can be omitted */
+  flex-wrap: nowrap;
+  /* default value; can be omitted */
+  justify-content: flex-start;
+  /* switched from default (flex-start, see below) */
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 0px;
+  height: 190px;
+}
+
+#sponsor > div {
+  width: 100px;
+}
+
+.sponsor_pic {
+  width: 85%;
+}
+
+p {
+  text-indent: 25px;
+}
+
+#galleryImg > div {
+  width: 75%;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galleryImg > div > a > img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+
+/* NYU Robotics link color*/
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* Desktop default with float right, less than the width px it will default to float left and have nav-bar enable */
+
+@media(min-width: 700px) {
+  .navbar-nav {
+    float: right;
+    margin-right: -10px;
+  }
+}
+
+@media(max-width: 320px) {
+  div.contact_pic > ul > li > h3 {
+    font-size: 21px;
+  }
+}
+
+
+/* when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+  .navbar-nav {
+    float: right;
+    margin-right: -10px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+  }
+  .blurb div {
+    font-size: 13px;
+  }
+  .carousel-caption {
+    bottom: 11%;
+  }
+  .carousel-caption > h1 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  #contact {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact_pic {
+    width: auto;
+  }
+  #sponsor {
+    height: 225px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sponsor_pic {
+    width: auto;
+  }
+  #contact > div {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 1100px;
+  }
+}
