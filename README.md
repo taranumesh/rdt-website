@@ -16,3 +16,6 @@ CHECK LIST
 - All photos are in the drive, you can upload them here if you like
 - Change resume email link from mailto: to a copy to clipboard function
 - Make Robotics section to have photos of Atlas02 and Atlas06
+- Decrease margins
+- Gallery have 3 rows and a slider. Change background theme
+- "Show more" change into Team directory. Add new page for this.
