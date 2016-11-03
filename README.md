@@ -1,8 +1,12 @@
 # rdt-website
 All css and js are in index.
 
+<<<<<<< HEAD
 DOWNLOAD A FTP CLIENT SOFTWARE. (e.g WinSCP, SmartFTP).
 DO NOT DOWNLOAD ALL BRANCH FILES. DOWNLOAD HTML FOR NOW.
+=======
+DOWNLOAD A FTP CLIENT SOFTWARE. (e.g WinSCP, SmartFTP)
+>>>>>>> jsf395/images
 - Slack me for the hostname and password
 
 CHECK LIST
@@ -14,9 +18,12 @@ CHECK LIST
 - Mobile compatibility [iPhone 4/5 are buggy]
 - Make it look nooiicee, again just inform me first
 - All photos are in the drive, you can upload them here if you like
+<<<<<<< HEAD
 - Change resume email link from mailto: to a copy to clipboard function
 - Make Robotics section to have photos of Atlas02 and Atlas06
 - ~~Decrease margins~~
 - Gallery have 3 rows and a slider. Change background theme
 - "Show more" change into Team directory. Add new page for this.
 - Mobile compatibility for the gallery
+=======
+>>>>>>> jsf395/images
