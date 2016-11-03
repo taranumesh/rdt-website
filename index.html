@@ -33,10 +33,16 @@
   <div id="desktopTest" class="visible-md visible-lg"></div>
   <!--THE NAVIGATION BAR AT THE TOP-->
   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!--	<div style="height: 50px;width: auto;">
+			<div align="center" style="font-size:x-large;color: white">
+				<a href ="http://lunabotics.poly.edu/" style="text-decoration: none;">NYU Robotics</a>
+			</div>
+		</div>	 -->
     <div class="container-fluid">
       <div class="navbar-header">
         <!--MOBILE NAVIGATION BAR-->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <image src="images/tandon_long_white.png" class='brand-icon'></image><a class="navbar-brand" href="http://lunabotics.poly.edu/#" id="brand" style="font-size: x-large; color: white;"> Robotics Design Team
 		      <!-- 	<img class="logo" src=#>	Maybe use the LOGO as the home button instead of NYU Robotics text-->
 	      </a> </div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -118,6 +124,7 @@
           <h1 style="text-align: center; ">Our Mission</h1>
           <hr style="border: 0%; border-bottom: 1px solid; max-width: 70px; margin-top: 12px;"> </div>
         <div style="padding-left: 30px; padding-right: 30px;">
+          <p> Our mission is to provide an opportunity for students who eager to apply all their eningeering knowledge to long term project with hands on experience designing and building robots.</p>
           <p>Our team, composed of students from a wide variety of engineering disciplines and at various stages in their education, is a unique environment of learning and mentorship. We participate in annual national robotics competitions that require the passion, perseverance, and dedication of our members to create and execute innovative designs for each competition. Furthermore, we also believe in the positive impact of STEM education for children of all ages, and organize outreach events to teach students about robotics and to encourage them to follow their dreams. </p>
         </div>
       </div>
@@ -202,84 +209,9 @@
             </div>
           </div>
         </div>
-        <!-- collapasables -->
-        <div id="contact-more" style="padding: 15px;" class="row collapse">
-          <div class="row">
-            <div id="contact" class="col-md-5 col-md-offset-1">
-              <div class="col-md-4">
-                <!-- Image placeholder used b/c no image exists for this person --><img src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/team-placeholder.jpg" class="img-rounded img-responsive"> </div>
-              <div class="col-md-8">
-                <ul style="list-style-type: none;" class="contact-list">
-                  <li>
-                    <h3>Frederick Bills</h3></li>
-                  <li>Email: fpb229@nyu.edu</li>
-                  <br>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div id="contact" class="col-md-5">
-              <div class="col-md-4">
-                <!-- Image placeholder used b/c no image exists for this person --><img src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/team-placeholder.jpg" class="img-rounded img-responsive"> </div>
-              <div class="col-md-8">
-                <ul style="list-style-type: none;" class="contact-list">
-                  <li>
-                    <h3>James Chu</h3></li>
-                  <li>Email: jc5560@nyu.edu</li>
-                  <br>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-          <div class="row">
-            <div id="contact" class="col-md-5 col-md-offset-1">
-              <div class="col-md-4">
-                <!-- Image placeholder used b/c no image exists for this person --><img src="images/Kim.png" class="img-rounded img-responsive"> </div>
-              <div class="col-md-8">
-                <ul style="list-style-type: none;" class="contact-list">
-                  <li>
-                    <h3>Sunglyoung Kim</h3></li>
-                  <li>Email: sk6176@nyu.edu</li>
-                  <br>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div id="contact" class="col-md-5">
-              <div class="col-md-4">
-                <!-- Image placeholder used b/c no image exists for this person --><img src="images/Josh.png" class="img-rounded img-responsive"> </div>
-              <div class="col-md-8">
-                <ul style="list-style-type: none;" class="contact-list">
-                  <li>
-                    <h3>Josh Fu</h3></li>
-                  <li>Email: jsf395@nyu.edu</li>
-                  <br>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
+        <div class="col-md-12 text-center padding-bottom">
+            <button type="button" class="btn" data-toggle="collapse" data-target="#contact-more"> <span class="glyphicon glyphicon-chevron-down"></span> Go To Directory</button>
           </div>
-          <div class="row">
-            <div id="contact" class="col-md-5 col-md-offset-1">
-              <div class="col-md-4">
-                <!-- Image placeholder used b/c no image exists for this person --><img src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/team-placeholder.jpg" class="img-rounded img-responsive"> </div>
-              <div class="col-md-8">
-                <ul style="list-style-type: none;" class="contact-list">
-                  <li>
-                    <h3>Norria Tian</h3></li>
-                  <li>Email: zt480@nyu.edu</li>
-                  <br>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center padding-bottom">
-            <button type="button" class="btn" data-toggle="collapse" data-target="#contact-more"> <span class="glyphicon glyphicon-chevron-down"></span> Show More </button>
-          </div>
-        </div>
       </div>
     </div>
     <!-- Joining/contact -->
@@ -300,6 +232,16 @@
           Our participation in these competitions is made possible by generous donations from the following STEM education supporters:
           </span></div>
         <br>
+        <div id="sponsor" class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 sponsor-image"> <img src="images/Tandon.png" class="img-rounded img-responsive" style="cursor: pointer;" onclick="window.location='http://engineering.nyu.edu/tandon'"> </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12" style="text-align:center">
+              <h3>NYU Tandon School of Engineering<br><small>Tel: 1.646.997.3600</small><br><small>Website: <a href = "http://engineering.nyu.edu/tandon">engineering.nyu.edu</a></small></h3> </div>
+          </div>
+        </div>
+        <div id="sponsor" class="col-md-6">
           <div class="row">
             <div class="col-md-6 col-md-offset-3 sponsor-image"> <img src="images/solidworks.PNG" class="img-rounded img-responsive" style="cursor: pointer;background-color:#fff;padding:2px;" onclick="window.location='http://www.solidworks.com/'"> </div>
           </div>
@@ -310,6 +252,7 @@
         </div>
       </div>
     </div>
+    <div class="row footer">
       <div class="col-md-4 col-md-offset-1">
         <div class="row" style="color: #555">Copyright NYU Robotic Design Team &copy;2016 All rights reserved </div>
         <div class="row" style="color: #555">Contact us: <strong>nyurdt@gmail.com</strong></div>
