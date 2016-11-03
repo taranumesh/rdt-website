@@ -224,69 +224,6 @@ a:visited {
   text-decoration: none;
 }
 
-
-/* Desktop default with float right, less than the width px it will default to float left and have nav-bar enable */
-
-@media(min-width: 700px) {
-  .navbar-nav {
-    float: right;
-    margin-right: -10px;
-  }
-}
-
-@media(max-width: 320px) {
-  div.contact_pic > ul > li > h3 {
-    font-size: 21px;
-  }
-}
-
-
-/* when the screen is less than 600 pixels wide */
-
-@media (max-width: 600px) {
-  .navbar-nav {
-    float: right;
-    margin-right: -10px;
-    position: absolute;
-    right: 5px;
-    top: 0px;
-  }
-  .blurb div {
-    font-size: 13px;
-  }
-  .carousel-caption {
-    bottom: 11%;
-  }
-  .carousel-caption > h1 {
-    font-size: 30px;
-    font-weight: normal;
-  }
-  #contact {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .contact_pic {
-    width: auto;
-  }
-  #sponsor {
-    height: 225px;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .sponsor_pic {
-    width: auto;
-  }
-  #contact > div {
-    height: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .modal-lg {
-    width: 1100px;
-  }
-}
-
 @keyframes grow {
   from {
     transform: scale(0.5);

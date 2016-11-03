@@ -84,4 +84,5 @@ $(function () {
   if ($("#desktopTest").is(":hidden")) {
     $("#brand").text("RDT")
   }
+  $("#myCarousel").height($(window).height() * 0.9);
 });
