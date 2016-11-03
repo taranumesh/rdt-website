@@ -17,6 +17,9 @@ body {
   font-weight: bold;
   background-color: #57068c;
   border-width: 0 !important;
+  font-family: 'gotham-bold', Fallback, sans-serif font-family: 'gotham-bold', Fallback, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   /* color-scheme */
 }
 
@@ -47,9 +50,12 @@ body {
 
 #myCarousel {
   padding-top: 50px;
-  width: 75%;
+  width: 100%;
+  max-height: 80%;
+  overflow: hidden;
   /* reduce carousel imgs and centers */
   margin: 0 auto;
+  position: relative;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -60,9 +66,8 @@ body {
   line-height: 1.75em !important;
   height: auto;
   color: white;
-  text-align: justify;
   /* background-image: -webkit-linear-gradient(rgba(12,9,9,0.55) 0%, rgba(12,9,9,0.55) 100%) ,url(images/blueprint.png); */
-  background-color: #606078;
+  background-color: #57068c;
   /* color-scheme */
   text-align: center;
   padding-top: 40px;
@@ -79,8 +84,12 @@ body {
   font-family: 'Open Sans', Arial;
   font-size: medium;
   height: auto;
+<<<<<<< HEAD
   color: #555;
   text-align: justify;
+=======
+  color: black;
+>>>>>>> jsf395/master
   padding-top: 40px;
   padding-bottom: 25px;
   background-color: white;
@@ -102,6 +111,12 @@ body {
 
 #resume {
   padding-bottom: 50px;
+}
+
+.carousel-inner {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
 }
 
 .carousel-inner img {
@@ -136,7 +151,6 @@ body {
   /* default value; can be omitted */
   flex-wrap: nowrap;
   /* default value; can be omitted */
-  justify-content: flex-start;
   /* switched from default (flex-start, see below) */
   background-color: rgba(0, 0, 0, 0);
   margin-bottom: 20px;
@@ -163,7 +177,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  background-color: #606078;
+  background-color: #57068c;
   /* color scheme */
 }
 
@@ -253,6 +267,10 @@ a:visited {
 
 .padding-bottom {
   padding-bottom: 25px;
+}
+
+.nopadding {
+  padding: 3px !important;
 }
 
 hr {
@@ -356,13 +374,14 @@ hr {
     padding-right: 60px;
   }
   #myCarousel {
-    width: 75%;
+    width: 100%;
   }
   .carousel-caption h1 {
     font-size: 65px;
   }
   .carousel-caption {
-    bottom: 100px;
+    bottom: 50%;
+    transform: translateY(50%);
   }
   .navbar-header {
     padding-left: 0px;
@@ -389,13 +408,14 @@ hr {
     padding-right: 60px;
   }
   #myCarousel {
-    width: 75%;
+    width: 100%;
   }
   .carousel-caption h1 {
     font-size: 65px;
   }
   .carousel-caption {
-    bottom: 100px;
+    bottom: 50%;
+    transform: translateY(50%);
   }
   .navbar-header {
     padding-left: 0px;
@@ -411,3 +431,21 @@ hr {
     font-size: 55px;
   }
 }
+<<<<<<< HEAD
+=======
+
+
+/*fonts*/
+
+@font-face {
+  font-family: 'gotham-bold';
+  src: url('fonts/gotham-bold.eot');
+  /* IE9 Compat Modes */
+  src: url('fonts/gotham-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/gotham-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/gotham-bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/gotham-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/gotham-bold.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+}
+>>>>>>> jsf395/master
