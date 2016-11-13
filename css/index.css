@@ -51,8 +51,8 @@ body {
 #myCarousel {
   padding-top: 50px;
   width: 100%;
-  max-height: 80%;
   overflow: hidden;
+  height: auto;
   /* reduce carousel imgs and centers */
   margin: 0 auto;
   position: relative;
