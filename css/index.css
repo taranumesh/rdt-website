@@ -51,8 +51,8 @@ body {
 #myCarousel {
   padding-top: 50px;
   width: 100%;
-  max-height: 80%;
   overflow: hidden;
+  height: auto;
   /* reduce carousel imgs and centers */
   margin: 0 auto;
   position: relative;
@@ -455,6 +455,10 @@ hr {
   url('fonts/gotham-bold.svg#svgFontName') format('svg');
   /* Legacy iOS */
 <<<<<<< HEAD
+<<<<<<< HEAD
+}
+>>>>>>> jsf395/master
+=======
 }
 >>>>>>> jsf395/master
 =======

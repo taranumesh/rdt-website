@@ -82,7 +82,9 @@ $(function () {
   });
   //Responsive adjustments
   if ($("#desktopTest").is(":hidden")) {
-    $("#brand").text("RDT")
+    $("#brand").text("RDT");
+    $("#myCarousel").height($(".carousel-inner").height());
+  } else {
+    $("#myCarousel").height($(window).height() * 0.9);
   }
-  $("#myCarousel").height($(window).height() * 0.9);
 });
