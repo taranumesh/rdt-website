@@ -85,8 +85,12 @@ body {
   font-size: medium;
   height: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #555;
   text-align: justify;
+=======
+  color: black;
+>>>>>>> jsf395/master
 =======
   color: black;
 >>>>>>> jsf395/master
@@ -432,7 +436,10 @@ hr {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> jsf395/master
 
 
 /*fonts*/
@@ -447,5 +454,9 @@ hr {
   url('fonts/gotham-bold.ttf') format('truetype'), /* Safari, Android, iOS */
   url('fonts/gotham-bold.svg#svgFontName') format('svg');
   /* Legacy iOS */
+<<<<<<< HEAD
+}
+>>>>>>> jsf395/master
+=======
 }
 >>>>>>> jsf395/master

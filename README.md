@@ -25,5 +25,8 @@ CHECK LIST
 - Gallery have 3 rows and a slider. Change background theme
 - "Show more" change into Team directory. Add new page for this.
 - Mobile compatibility for the gallery
+<<<<<<< HEAD
 =======
 >>>>>>> jsf395/images
+=======
+>>>>>>> jsf395/master
