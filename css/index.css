@@ -58,7 +58,6 @@ body {
   position: relative;
 }
 
-
 /* Add a gray background color and some padding to the footer */
 
 .blurb {
@@ -85,7 +84,16 @@ body {
   font-family: 'Open Sans', Arial;
   font-size: medium;
   height: auto;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  color: #555;
+  text-align: justify;
+=======
   color: black;
+>>>>>>> jsf395/master
+=======
+  color: black;
+>>>>>>> jsf395/master
   padding-top: 40px;
   padding-bottom: 25px;
   background-color: white;
@@ -427,6 +435,11 @@ hr {
     font-size: 55px;
   }
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> jsf395/master
 
 
 /*fonts*/
@@ -441,4 +454,13 @@ hr {
   url('fonts/gotham-bold.ttf') format('truetype'), /* Safari, Android, iOS */
   url('fonts/gotham-bold.svg#svgFontName') format('svg');
   /* Legacy iOS */
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
+>>>>>>> jsf395/master
+=======
+}
+>>>>>>> jsf395/master
+=======
+}
+>>>>>>> jsf395/master
